@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class PaisesService {
-  paisesURL = "http://localhost:8080/paises?";
+  paisesURL = "https://test-paises.herokuapp.com/paises?";
   constructor(private httpClient: HttpClient) {}
   
     public paises(page:number, size:number, order:string, asc:boolean ): Observable<any> {
