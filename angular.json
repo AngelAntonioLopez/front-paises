@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "paises"
+    }
+  },
+  "defaultProject": "paises",
+  "cli": {
+    "analytics": "4ab83a09-7e02-4e48-9be4-aaa4121760fb"
+  }
 }
